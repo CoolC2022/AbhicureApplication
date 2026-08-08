@@ -1,11 +1,13 @@
 // Doctor.java
 public class Doctor {
     private String name;
+    private String Address;
     private String specialization;
     private int experience;
 
-    public Doctor(String name, String specialization, int experience) {
+    public Doctor(String name,String address, String specialization, int experience) {
         this.name = name;
+        this.address = address;
         this.specialization = specialization;
         this.experience = experience;
     }
@@ -13,6 +15,10 @@ public class Doctor {
     public String getName() {
         return name;
     }
+    public String getAddress() {
+        return Address;
+    }
+
 
     public String getSpecialization() {
         return specialization;

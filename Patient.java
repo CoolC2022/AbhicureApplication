@@ -4,12 +4,14 @@ public class Patient {
     private int age;
     private String gender;
     private String disease;
+    private String BloodGroup;
 
-    public Patient(int id, String name, int age, String gender, String disease) {
+    public Patient( String name, int age, String gender, String disease,String bloodgroup) {
         this.name = name;
         this.age = age;
         this.gender = gender;
         this.disease = disease;
+        this.bloodGroup = bloodGroup;
     }
 
     public String getName() {
@@ -26,6 +28,9 @@ public class Patient {
 
     public String getDisease() {
         return disease;
+    }
+     public String getBloodGroup() {
+        return bloodgroup;
     }
 
     public void setDisease(String disease) {

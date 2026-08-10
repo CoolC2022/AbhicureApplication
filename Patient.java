@@ -6,7 +6,7 @@ public class Patient {
     private String disease;
     private String BloodGroup;
 
-    public Patient(Int id, String name, int age, String gender, String disease,String bloodgroup) {
+    public Patient( String name, int age, String gender, String disease,String bloodgroup) {
         this.name = name;
         this.age = age;
         this.gender = gender;

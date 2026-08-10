@@ -36,6 +36,14 @@ public class Patient {
     public void setDisease(String disease) {
         this.disease = disease;
     }
+    public void getPatientInfo(){
+      System.out.println(name);
+      System.out.println(age);
+      System.out.println(gender);
+      System.out.println(disease);
+      System.out.println(bloodGroup);
+
+    }
     }
 }
 
